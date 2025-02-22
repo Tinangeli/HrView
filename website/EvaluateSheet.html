@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faculty Selection</title>
+        <link rel="stylesheet" href="EvaluateSheetStyle.css">
+    </head>
+
+    <body>
+        <div>
+            <h1>Eval Session</h1>
+            <h2>Student Evaluation</h2>
+        </div>
+
+    <div id="timer" class="SesstionTime">60:00</div>
+    <div id="MinuteTimer" class="SessionTime">2:00</div>
+    
+    <label>Student</label>
+    <div class="container" id="Student">        
+                               
+        <div class="StudentEvalButton" data-action="HandleStudentListening">Listening</div>
+        <div class="StudentEvalButton" data-action="HandleStudentThinking">Individual Thinking</div>
+        <div class="StudentEvalButton" data-action="HandleStudentGroupAct">Group Activity</div>
+        <div class="StudentEvalButton" data-action="HandleStudentAnswer">Answer Question</div>
+        <div class="StudentEvalButton" data-action="HandleStudentQuestion">Ask Question</div>
+        <div class="StudentEvalButton" data-action="HandleStudentDiscussion">Whole Class Discussion</div>
+        <div class="StudentEvalButton" data-action="HandleStudentPresent">Student Presentation</div>
+        <div class="StudentEvalButton" data-action="HandleStudentTestQuiz">Test/Quiz</div>
+        <div class="StudentEvalButton" data-action="HandleStudentWaiting">Waiting</div>
+        <div class="StudentEvalButton" data-action="HandleStudentOther">Other</div>             
+    </div>
+    <br><br>    
+    <label>Professor</label>
+    <div class="container" id="Professor">
+        <div class="ProfessorEvalButton" data-action="HandleLectureProfessor">Lecture</div>
+        <div class="ProfessorEvalButton" data-action="HandleRealtimeWriting">Realtime Writing</div>
+        <div class="ProfessorEvalButton" data-action="HandleMovingGuiding">Moving/Guiding</div>
+        <div class="ProfessorEvalButton" data-action="HandleAnswerStudentQuestion">Answer Student Question</div>
+        <div class="ProfessorEvalButton" data-action="HandlePoseQuestion">Pose Question</div>
+        <div class="ProfessorEvalButton" data-action="HandleFollowUpQuestion">Follow-up Question</div>
+        <div class="ProfessorEvalButton" data-action="HandleIndividualDiscussion">Individual Discussion</div>
+        <div class="ProfessorEvalButton" data-action="HandleDemonstrate">Demonstrate/Video</div>
+        <div class="ProfessorEvalButton" data-action="HandleAdministrativeTask">Administrative Task</div>
+        <div class="ProfessorEvalButton" data-action="HandleWaiting">Waiting</div>
+        <div class="ProfessorEvalButton" data-action="HandleOther">Other</div>        
+    </div>
+
+
+
+
+    </body>
+</html>
